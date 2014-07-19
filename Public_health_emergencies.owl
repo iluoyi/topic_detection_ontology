@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#"
+     xml:base="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#三聚氰胺 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#三聚氰胺">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#丙型肝炎 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#丙型肝炎">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#乳制品 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#乳制品">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#亚急性中毒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#亚急性中毒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#职业中毒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#传染病疫情 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#传染病疫情">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#公共卫生突发事件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#公共卫生突发事件 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#公共卫生突发事件"/>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#可口可乐 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#可口可乐">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#咖啡因 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#咖啡因">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#塑化剂 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#塑化剂">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#大肠杆菌 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#大肠杆菌">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#生物添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#奶 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#奶">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#奶粉 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#奶粉">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#乳制品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#急性中毒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#急性中毒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#职业中毒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#慢性中毒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#慢性中毒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#职业中毒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#柠檬酸钠 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#柠檬酸钠">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#橘子 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#橘子">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水产品 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水产品">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水果 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水果">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海产品 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海产品">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海鲜 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海鲜">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#淡水鱼 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#淡水鱼">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#水产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#添加剂 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#添加剂">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食物中毒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#滋补品 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#滋补品">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#燕窝 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#燕窝">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#滋补品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#牛肉膏 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#牛肉膏">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#生物添加剂 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#生物添加剂">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#甲型副伤寒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#甲型副伤寒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#甲型流感 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#甲型流感">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#传染病疫情"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#瘦肉精 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#瘦肉精">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#矿泉水 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#矿泉水">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#禽流感 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#禽流感">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#红牛 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#红牛">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#职业中毒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#职业中毒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#公共卫生突发事件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#苏丹红 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#苏丹红">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#苯甲酸铵 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#苯甲酸铵">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#化合添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#营养快线 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#营养快线">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬果 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬果">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬菜 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬菜">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬果"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蚝 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蚝">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海鲜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蟹 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蟹">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#海鲜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#血燕 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#血燕">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#燕窝"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#非典型性肺炎 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#非典型性肺炎">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#病毒性传染病"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食物中毒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食物中毒 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食物中毒">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#公共卫生突发事件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#饮料">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#食品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#黄曲霉素 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#黄曲霉素">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#生物添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#黄瓜 -->
+
+    <owl:Class rdf:about="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#黄瓜">
+        <rdfs:subClassOf rdf:resource="http://is.bupt.edu.cn/2012/luoyi/finalyearproject/Public_health_emergencies.owl#蔬菜"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
